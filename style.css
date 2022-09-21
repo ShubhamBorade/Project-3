@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(153 151 151);
+}
+/* .container{
+    margin-left:40px;
+} */
+.navbar-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-container img{
+    margin: 15px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 214px;
+}
+.list li{
+    margin:5px 10px;
+}
+.grow-list{
+    margin-left: -500px;
+    margin-top: 10px;
+    color:aliceblue;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+}
+.nav-button{
+    padding: 10px 20px;
+    margin-top:20px;
+    margin-right: 50px;
+    background-color: blue;
+    border-radius: 14px;
+    color:white;
+    border:none;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-size: 54px;
+    color: white;
+}
+/* .container{
+    margin: 20px;
+} */
+h2{
+    margin-left: 107px;
+    margin-top: 95px;
+    color: white;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+}
+[src="./assets/justice.jpg"]{
+    width: 1245px;
+    height: 300;
+
+}
