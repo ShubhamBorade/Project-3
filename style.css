@@ -9,7 +9,14 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
+.list-item:hover{
+    color:black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+[src="./assets/Logo.png"]:hover{
+    cursor: pointer;
+}
 .navbar-container img{
     margin: 15px;
 }
@@ -37,6 +44,10 @@ body{
     border-radius: 14px;
     color:white;
     border:none;
+}
+.nav-button:hover{
+    color: black;
+    cursor: pointer;
 }
 .bottom{
     display: flex;
